@@ -1,7 +1,7 @@
 #  Transformer-based Conditional Variational Autoencoder for Controllable Story Generation
 
 
-![একটা সুন্দর ফুল](images/image.png)
+![একটা সুন্দর ফুল](../images/image.png)
 
 
 ## Bengali translate : 
@@ -23,3 +23,16 @@ LVMs (বিশেষ করে Variational Autoencoder – VAE) ইতিমধ
 এই মডেলের প্রধান অংশগুলো (encoder, decoder, variational posterior) সবই প্রি-ট্রেইন করা GPT-2-এর উপর ভিত্তি করে বানানো হয়েছে।
 
 পরীক্ষার ফলাফল প্রমাণ করেছে যে আমাদের মডেল state-of-the-art conditional generation করতে পারে, এবং একে চমৎকার representation learning এবং controllability ক্ষমতাসম্পন্ন বলা যায়।
+
+
+## Summary :
+
+এই গবেষণায় বলা হয়েছে যে:
+
+- Transformers ভালো টেক্সট জেনারেশন করতে পারে, কিন্তু controllability কম।
+
+- Variational Autoencoder (VAE)-এর মতো Latent Variable Model controllability ভালোভাবে দিতে পারে।
+
+- তাই গবেষকরা GPT-2 Transformer-এর সাথে VAE মিলিয়ে একটি নতুন CVAE মডেল বানিয়েছেন।
+
+- এই মডেল state-of-the-art টেক্সট জেনারেশন করতে পারে এবং নিয়ন্ত্রণ (controllability) ও representation learning-এ খুব ভালো কাজ করে।
